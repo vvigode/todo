@@ -16,6 +16,8 @@ class Task extends CActiveRecord
         return array(
             array('title', 'required'),
             array('title', 'length', 'max' => 255),
+            array('description, image', 'safe'),
+            array('status', 'numerical', 'integerOnly' => true),
             array('is_done', 'boolean'),
         );
     }
@@ -25,6 +27,9 @@ class Task extends CActiveRecord
         return array(
             'id' => 'ID',
             'title' => 'Название',
+            'description' => 'Описание',
+            'image' => 'Картинка',
+            'status' => 'Статус',
             'is_done' => 'Выполнено',
         );
     }
