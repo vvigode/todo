@@ -1,0 +1,13 @@
+{
+  "name": "example/yii1-vue-empty",
+  "description": "Empty Yii1 + Vue.js project",
+  "type": "project",
+  "require": {
+    "yiisoft/yii": "^1.1"
+  },
+  "autoload": {
+    "classmap": [
+      "protected/"
+    ]
+  }
+} 
