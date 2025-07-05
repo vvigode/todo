@@ -10,7 +10,7 @@
 
 1. Скачайте проект (или клонируйте git-репозиторий):
    ```bash
-   git clone https://github.com/username/yii1-vue-todo.git
+   git clone https://github.com/username/yii1-vue-todo.git 
    cd yii1-vue-todo
    ```
 
